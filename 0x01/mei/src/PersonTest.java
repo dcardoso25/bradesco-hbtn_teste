@@ -18,8 +18,8 @@ public class PersonTest {
         Date birthDate = cal.getTime();
 
         person = new Person(
-                "Diego",
-                "Cardoso",
+                "Paul",
+                "McCartney",
                 birthDate,
                 true,   // anotherCompanyOwner
                 true,   // pensioner
@@ -31,7 +31,7 @@ public class PersonTest {
 
     @Test
     public void show_full_name() {
-        assertEquals("Diego Cardoso", person.fullName());
+        assertEquals("Paul McCartney", person.fullName());
     }
 
     @Test
